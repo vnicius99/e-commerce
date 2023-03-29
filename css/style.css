@@ -14,13 +14,22 @@
    
 }
 body{
+    display: flow ;
     background-color: cadetblue;
 }
 .container1{
-    display: flex;
-}
-.container2{
-   display: flex;
+    display: flow;
     
 }
+.filtros{
+    display: flow;
+    width: 70px;
+    height: 40px;
+}
+.carousel{
+    display: flow;
+    width: 1050px;
+    height: 300pxS;
+}
+
 
