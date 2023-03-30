@@ -1,7 +1,7 @@
 
-.container{
+.conteiner{
     display: flex;
-    background-color:;
+    background-color:gold;
 }
 .item-menu{
     
@@ -17,8 +17,9 @@ body{
     display: flow ;
     background-color: cadetblue;
 }
-.container1{
-    display: flow;
+.conteiner1{
+    display: flex;
+    background-color: lightsteelblue;
     
 }
 .filtros{
@@ -29,7 +30,40 @@ body{
 .carousel{
     display: flow;
     width: 1050px;
-    height: 300pxS;
+    height: 300px;
 }
+.vendas{
+    display: flow;
+}
+.produtos{
+    display: flex;
+}
+.produto1{
+    display: flow;
+    width: 300px;
+    height: 350px;
+    background-color: gray;
+    border:6px solid white;
+}
+.produto2{
+    display: flow;
+    width: 300px;
+    height: 350px;
+    background-color:gray;
+    border:6px solid white;
+}
+.produto3{
+    display: flex;
+    width: 300px;
+    height: 350px;
+    background-color: gray;
+    border:6px solid white;
+}
+.favoritos{
+    display:flex ;
 
+    height: 400px;
+    background-color:gray;
+    border: 3px solid white;
+}
 
