@@ -1,5 +1,5 @@
 
-.conteiner{
+.container{
     display: flex;
     background-color:gold;
 }
@@ -17,7 +17,7 @@ body{
     display: flow ;
     background-color: cadetblue;
 }
-.conteiner1{
+.container1{
     display: flex;
     background-color: lightsteelblue;
     
