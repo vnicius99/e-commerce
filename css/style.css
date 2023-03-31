@@ -138,18 +138,18 @@ body{
 .vendas{
     display: flow;
 }
-.produtos{
-    display: flex;
+.linha1{
+    display:flex;
 }
 .produto1{
-    display: flow;
+    display: inline;
     width: 300px;
     height: 350px;
     background-color: gray;
     border:6px solid white;
 }
 .produto2{
-    display: flow;
+    display: flex;
     width: 300px;
     height: 350px;
     background-color:gray;
@@ -163,10 +163,65 @@ body{
     border:6px solid white;
 }
 .favoritos{
-    display:flex ;
+    display:flex;
 
     height: 400px;
     background-color:gray;
     border: 3px solid white;
+    
+}
+.linha2{
+    display: flex;
+}
+.produto4{
+    display:flex;
+    left:0px;
+    width: 300px;
+    height: 350px;
+    background-color: gray;
+    border:6px solid white;
+}
+.produto5{
+    display:flex;
+    left:0px;
+    width: 300px;
+    height: 350px;
+    background-color: gray;
+    border:6px solid white;
+}
+.produto6{
+    display:flex;
+    left:0px;
+    width: 300px;
+    height: 350px;
+    background-color: gray;
+    border:6px solid white;
+}
+.linha3{
+    display: flex;
+}
+.produto7{
+    display:flex;
+    left:0px;
+    width: 300px;
+    height: 350px;
+    background-color: gray;
+    border:6px solid white;
+}
+.produto8{
+    display:flex;
+    left:0px;
+    width: 300px;
+    height: 350px;
+    background-color: gray;
+    border:6px solid white;
+}
+.produto9{
+    display:flex;
+    left:0px;
+    width: 300px;
+    height: 350px;
+    background-color: gray;
+    border:6px solid white;
 }
 
