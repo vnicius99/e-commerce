@@ -17,6 +17,10 @@ header #logotipo {
 	z-index: 3;
     left: 20px;
 }
+.body{
+    background-image: url("img/gramado.jpg") ;
+    display: flow ;  
+}
 
 #menu {
 	margin: 12px 0;
@@ -96,10 +100,6 @@ header #logotipo {
     height: 460px;
     width: 200px; 
 }
-body{
-    display: flow ;
-    background-color: cadetblue;
-}
 
 .filters-group{
     background-color: gainsboro;
@@ -122,10 +122,10 @@ body{
 
 .carousel{
     display: flex;
-    width: 900px;
+    width: 1000px;
 
     position: static;
-    left:140px;
+    left:160px;
 
 }
 
@@ -163,13 +163,14 @@ body{
     border:6px solid white;
 }
 .favoritos{
+   
     display:flex;
-
-    height: 400px;
-    background-color:gray;
-    border: 3px solid white;
-    
-}
+    left:0px;
+    width: 300px;
+    height: 350px;
+    background-color: gray;
+    border:6px solid white;
+    position: fixed;}
 .linha2{
     display: flex;
 }
@@ -224,4 +225,48 @@ body{
     background-color: gray;
     border:6px solid white;
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
 
+
+
+.footer{
+    display: flex;
+}
