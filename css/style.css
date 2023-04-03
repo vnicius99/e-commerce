@@ -18,7 +18,7 @@ header #logotipo {
     left: 20px;
 }
 .body{
-    background-image: url("img/gramado.jpg") ;
+    background: url("img/gramado.jpg") ;
     display: flow ;  
 }
 
@@ -103,21 +103,25 @@ header #logotipo {
 
 .filters-group{
     background-color: gainsboro;
-    width: 220px;
-    height: 458.5px;
-    border: 1;
+    width: 200px;
+    height: 300px;
+    border: 2x solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
     border-color: black;
     position: absolute;
+    top: 200px;
+    left: 30px;
+    box-shadow: black;
 }
 
 .filtros{
     display: flow;
     padding: 20px 10px ;
     width: 100px;
-    height: 40px;
+    height: 200px;
     position: absolute;
-    top:200px;
-    left:50px;
+    top:80px;
+    left:30px;
 }
 
 .carousel{
@@ -162,15 +166,7 @@ header #logotipo {
     background-color: gray;
     border:6px solid white;
 }
-.favoritos{
-   
-    display:flex;
-    left:0px;
-    width: 300px;
-    height: 350px;
-    background-color: gray;
-    border:6px solid white;
-    position: fixed;}
+
 .linha2{
     display: flex;
 }
@@ -233,6 +229,7 @@ header #logotipo {
     float: left;
     height: 46px;
     padding: 0 10px;
+    
 }
 .rate:not(:checked) > input {
     position:absolute;
@@ -270,3 +267,18 @@ header #logotipo {
 .footer{
     display: flex;
 }
+.favoritos{
+    
+    display:inline;
+    width: 550px;
+    height: 800px;
+    background-color: gray;
+    border: 2x solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    border-color: black;
+    position:absolute;
+    right: 15px;
+    top: 600px;    
+    
+}
+

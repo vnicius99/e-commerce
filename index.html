@@ -68,26 +68,35 @@
             </div>   
         </header> 
 
-        <div class="filters-group" ></div>
+        <div class="filters-group" >
             <div class="filtros">
-                <select name="tipos" id="tipo">
+                <select class="tipos" id="tipo">
                     <option value="">-- Tipo --</option>
-                    <option value="volvo">Tênis</option>
-                    <option value="saab">Chuteira</option>
-                    <option value="mercedes">Bola</option>   
+                    <option value="tenis">Tênis</option>
+                    <option value="chuteira">Chuteira</option>
                 </select>
-                <select name="Modelos" id="Modelo">
+                <select class="Modelos" id="Modelo">
                     <option value="">-- Modelo --</option>
-                    <option value="volvo">Nike</option>
-                    <option value="saab">Adidas</option>
+                    <option value="nike">Nike</option>
+                    <option value="adidas">Adidas</option>
                 </select>
-                <select name="Tamanhos" id="Tamanho">
+                <select class="Tamanhos" id="Tamanho">
                     <option value="">-- Tamanho --</option>
                     <option value="34-36">34-36</option>
                     <option value="37-39">37-39</option>
                     <option value="40-42">40-42</option>
                     <option value="42+">42+</option>
                 </select>
+
+                <form method="get" action="/s">
+                 <span class="a-color-base s-ref-mini-padding-left s-ref-price-currency">R$</span>
+                 <input type="text" maxlength="9" id="low-price" placeholder="Min." name="low-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding">
+                 <span class="a-color-base s-ref-mini-padding-left s-ref-price-currency">R$</span>
+                 <input type="text" maxlength="9" id="high-price" placeholder="Máx." name="high-price" class="a-input-text a-spacing-top-mini s-ref-price-range s-ref-price-padding">
+                 <span class="a-button a-spacing-top-mini a-button-base s-small-margin-left" id="a-autoid-1"><span class="a-button-inner"><input class="a-button-input" type="submit" aria-labelledby="a-autoid-1-announce"><span class="a-button-text" aria-hidden="true" id="a-autoid-1-announce">
+                    Ir
+                 </span></span></span>
+              </form>
             </div>
         </div>
 
@@ -180,8 +189,11 @@
                         <input type="radio" id="star1" name="rate" value="1" />
                         <label for="star1" title="text">1 star</label>
                     </div>
-                </div>
+                   
             </div>
+                
+               
+        </div>
         
         
             
@@ -315,6 +327,10 @@
 
         </div>
         <div class="favoritos">
+            <font size="7" face="Verdana">Mais bem avaliados</font>
+            <img src="img/chuteira1.png" width="550px" height="300px">
+            <img src="img/chuteiraadidas3.jpeg" width="550px" height="300px">
+            
             
         </div>
     </body>
@@ -335,13 +351,14 @@
 
         <div id="opcoes">
             <li><a href="#">AJUDA</a></li>
-            <b id="separador"> | </b>
+        
             <li><a href="">Politica de privacidade</a></li>
-            <b id="separador"> | </b>
+           
             <li><a href="#">FAQ</a></li>
-            <b id="separador"> | </b>
+          
             <li><a href="#">Pedidos</a></li>
         </div>
+        
         
         
         
