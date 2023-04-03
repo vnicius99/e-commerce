@@ -264,9 +264,24 @@ header #logotipo {
 
 
 
-.footer{
-    display: flex;
+footer{
+    background-color: gold;
+    position: relative;
 }
+
+.pagamentos{
+    position: relative;
+    left:10px;
+}
+
+#opcoes-footer{
+    right:20px;
+    top: 5px;
+    position: absolute;
+}
+
+
+
 .favoritos{
     
     display:inline;
